@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-transform: capitalize;
+}
+
+.navbar ul li a:hover {
+    color: #000;
+    transition: .3s ease;
+}
+
+.nav-btn {
+  border: none;
+  padding: 0 13px;
+
+  margin-top: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.box2 {
+  width: 1500px;
+  height: 1000px;
+  background-color: #265a6a;
+}
+
+.matn1_rasim1 {
+  display: flex;
+}
+
+.matn {
+  width: 437px;
+  color: white;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+
+.matn button {
+  margin-top: 150px;
+}
+
+.rasim1 {
+  width: 755px;
+  height: 555px;
+}
+
+.button1 {
+  border: none;
+  padding: 6px 12px;
+  background-color: yellow;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: orange;
+}
+
+.text {
+  margin: 0 auto;
+  width: 1170px;
+  border: 1px solid red;
+}
+
+.text1 {
+  margin-top: 100px;
+  margin: 0 auto;
+  width: 510px;
+}
+
+.pnj {
+  width: 50px;
+}
+
+.text3 {
+  display: flex;
+  justify-content: space-between;
+}
+.pnj3 {
+  background-color: #265a6a;
+}
+
+.text4 {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* .text5 {
+    display: flex;
+} */
+
+.image-box {
+  width: 1170px;
+  height: 310px;
+  margin: 0 auto;
+}
+.img-div {
+  width: 1000px;
+  height: 270px;
+  margin: 20px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-item {
+  width: 310px;
+  height: 270px;
+}
+
+.image {
+  width: 300px;
+  height: 240px;
+}
